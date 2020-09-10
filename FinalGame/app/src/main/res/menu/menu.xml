@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id = "@+id/new_game"
+        android:icon="@drawable/restart"
+        android:title="@string/restart"
+        app:showAsAction="always"/>
+    <item android:id = "@+id/leader_board"
+        android:icon="@drawable/board"
+        android:title="@string/leaderboard"
+        app:showAsAction="always"/>
+</menu>

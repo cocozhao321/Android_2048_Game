@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#52afaa"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:text="GAME OVER!"/>
+
+    <TextView
+        android:id="@+id/game_over_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#397bb2"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:text="@string/game_over_message"/>
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/camera" />
+    <EditText
+        android:id="@+id/userid"
+        android:hint="Nickname"
+        android:padding="20dp"
+        android:layout_marginBottom="30sp"
+        android:textColor="#000000"
+        android:textColorHint="#52afaa"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/user_name"
+        android:hint="Share anything you want..."
+        android:padding="20dp"
+        android:layout_marginBottom="30sp"
+        android:textColor="#000000"
+        android:textColorHint="#52afaa"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/leaderboardBT"
+        android:padding="20sp"
+        android:background="#397bb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="SHARE/SAVE YOUR SCORE"/>
+
+</LinearLayout>

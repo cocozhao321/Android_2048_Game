@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">2048</string>
+    <string name="instruction_title">INSTRUCTION</string>
+    <string name="instruction">1. Start the game - two tiles appear
+        \n2. Move tiles
+    \n3. Merge tiles
+    \n4. Get additional tile
+    \n5. Continue merging tiles if possible
+    \n6. Game ends - no empty space left</string>
+    <string name="start">Start Game</string>
+    <string name="score">Score:</string>
+    <string name="restart">restart</string>
+    <string name="leaderboard">LeaderBoard</string>
+    <string name="game_over_message">Your final score is %s</string>
+</resources>

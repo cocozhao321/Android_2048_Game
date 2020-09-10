@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1037036544229",
+    "firebase_url": "https://coco-daaa7.firebaseio.com",
+    "project_id": "coco-daaa7",
+    "storage_bucket": "coco-daaa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037036544229:android:4e063ec571aeab32e7740c",
+        "android_client_info": {
+          "package_name": "com.example.finalgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037036544229-ffl1ibkvggsgdroqqbk1criua9djift4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaOCWoJGHPzUMfdR7KoZ9gMSfGroIudHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037036544229-ffl1ibkvggsgdroqqbk1criua9djift4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
